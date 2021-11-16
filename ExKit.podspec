@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ExKit'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ExKit.'
+  s.summary          = 'ExKit: 用于快速开发iOS App的框架'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,8 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+- Swift 5.0及以上
+- 快速开发App
                        DESC
 
   s.homepage         = 'https://github.com/AwakenDragon/ExKit_iOS'
@@ -30,7 +31,8 @@ TODO: Add long description of the pod here.
 
   s.swift_version    = '5.0'
   s.ios.deployment_target = '12.0'
-  s.pod_target_xcconfig = { "DEFINES_MODULE" => "YES" }
+  s.static_framework = true
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0','DEFINES_MODULE' => 'YES' }
   s.frameworks =  'Foundation', 'UIKit'
   s.source_files = 'ExKit/Classes/**/*'
   s.dependency 'Jelly'
