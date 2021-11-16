@@ -21,10 +21,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/ZhouYuzhen/ExKit'
+  s.homepage         = 'https://github.com/AwakenDragon/ExKit_iOS'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ZhouYuzhen' => '940549652@qq.com' }
-  s.source           = { :git => 'https://github.com/ZhouYuzhen/ExKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/AwakenDragon/ExKit_iOS.git', :tag => s.version.to_s }
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
