@@ -36,7 +36,6 @@ Pod::Spec.new do |s|
   s.frameworks =  'Foundation', 'UIKit'
   s.source_files = 'ExKit/Classes/**/*'
   s.dependency 'Jelly'
-  s.dependency 'TPKeyboardAvoiding'
   s.dependency 'FDFullscreenPopGesture'
   s.dependency 'SnapKit'
   s.dependency 'SwifterSwift'
